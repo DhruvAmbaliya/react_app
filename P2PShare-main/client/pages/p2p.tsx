@@ -249,7 +249,7 @@ const Home: NextPage = () => {
   const handleStartAudioVideoStream = React.useCallback(async () => {
     const stream = await navigator.mediaDevices.getUserMedia({
       audio: true,
-      video: true,
+      // video: true,
     })
 
     if (stream && setUserMediaStream) setUserMediaStream(stream)
