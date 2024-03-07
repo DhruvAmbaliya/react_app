@@ -1,7 +1,10 @@
+//yarn dev
+//yarn start
+
 import React from 'react'
 import ReactPlayer from 'react-player'
 import Grid from '@mui/material/Grid'
-import Tooltip from '@mui/material/Tooltip'
+import Tooltip from '@mui/material/Tooltip' 
 import { AiFillPushpin, AiOutlinePushpin } from 'react-icons/ai'
 import Typography from '@mui/material/Typography'
 import { MediaStreamContext, ProviderProps } from 'context/MediaStream'
